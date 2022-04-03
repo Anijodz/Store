@@ -486,7 +486,7 @@
 
       <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
 
-          <form action="https://formsubmit.co/ackandrew@yahoo.com" method="POST" role="form" class="php-email-form">
+          <form action="https://formsubmit.co/ackandrew@yahoo.com" method="POST">
 
 
 
@@ -511,9 +511,10 @@
           <div class="form-group">
             <label for="comments">Mensaje</label>
             <textarea name="comments" cols="15" rows="5" class="form-control" required></textarea>
+            <br>
           </div>
 
-          <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+          <div class="text-center "><button type="submit" class="btn btn-info" onClick="saludo()" >Enviar mensaje</button></div>
 
                        
           <input type="hidden" name="_next" value="https://anijodz.github.io/Store/">
@@ -522,6 +523,14 @@
 
 
           <!--input type="hidden" name="_autoresponse" value="your custom message"-->
+          <script>
+          
+          function saludo(){
+            window.alert('Bienvenidos a nuestra web');
+            }
+          
+          </script>
+
 
 
 
